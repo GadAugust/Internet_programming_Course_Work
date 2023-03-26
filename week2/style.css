@@ -1,0 +1,73 @@
+.red {
+    color: red;
+  }
+  
+  .white-on-black {
+    color: white;
+    background-color: black;
+  }
+  
+  .green {
+    color: green;
+  }
+  
+  .green-on-darkred {
+    color: green;
+    background-color: darkred;
+  }
+  
+  /* Selectors to make paragraphs green without setting the color of the paragraphs */
+  p:not(.red):not(.white-on-black):not(.green-on-darkred):not(.black) {
+    color: green;
+  }
+  /*Below is the styling for exercise2*/
+  .module {
+    display: inline-block;
+    width: 45%;
+    padding: 20px;
+    margin: 10px;
+    box-sizing: border-box;
+  }
+  
+  #csym019 {
+    background-color: #f2dede;
+  }
+  
+  #csym015 {
+    background-color: #d9edf7;
+  }
+
+  /*Below is the styling for exercise3*/
+  .module-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .module {
+    flex: 1 1 45%;
+    padding: 20px;
+    margin: 10px;
+    box-sizing: border-box;
+  }
+  
+  #csym028 {
+    background-color: #d4e6f1;
+  }
+  
+  #csym020 {
+    background-color: #fcf8e3;
+  }
+  
+  #csym019 {
+    background-color: #e2f0cb;
+  }
+  
+  #csym015 {
+    background-color: #f5c6cb;
+  }
+
+  
+
+  
+  

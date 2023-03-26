@@ -1,0 +1,19 @@
+header {
+    background-color: blue;
+    color: white;
+    padding: 20px;
+    }
+    nav {
+    background-color: yellow;
+    }
+    main {
+    background-color: darkblue;
+    color: white;
+    }
+    aside {
+    background-color: lightgreen;
+    }
+    footer {
+    background-color: darkgreen;
+    color: white;
+    }
